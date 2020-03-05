@@ -1,0 +1,19 @@
+{
+  "name": "nasr",
+  "version": "0.0.0",
+  "description": "Not Another Screen Reader is not a screen reader. It is a Web browser designed to receive input mainly from a keyboard and \"display\" with a text to speech engine.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js | spd-say -e",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis D. Reed",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^2.1.1",
+    "readkey": "^1.0.0",
+    "readline-sync": "^1.4.10",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.3"
+  }
+}
